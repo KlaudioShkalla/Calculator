@@ -6,3 +6,5 @@
     Subtraktion: Subtrahiert die zweite Zahl von der ersten.
     Multiplikation: Multipliziert zwei Zahlen.
     Division: Dividiert die erste Zahl durch die zweite, wobei eine Division durch Null von einer Exception unterbrochen wird.
+
+[![Java CI](https://github.com/KlaudioShkalla/Calculator/actions/workflows/ci.yaml/badge.svg)](https://github.com/KlaudioShkalla/Calculator/actions/workflows/ci.yaml)
