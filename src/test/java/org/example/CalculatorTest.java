@@ -1,5 +1,7 @@
 package org.example;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
@@ -23,5 +25,11 @@ class CalculatorTest {
     @org.junit.jupiter.api.Test
     void testDivision() {
         assertEquals(2, calculator.divide(6, 3), "  2");
+    }
+
+    @Test
+    void root() {
+         assertEquals(2, calculator.root(36), "  6");
+
     }
 }

@@ -21,8 +21,11 @@ public class Calculator {
         }
     }
 
-
-
-
-
+    public double root(int a) {
+        if(a < 0) {
+            throw new IllegalArgumentException("Cannot calculate the square root of a negative number.");
+        } else {
+            return Math.sqrt(a);
+        }
+    }
 }
