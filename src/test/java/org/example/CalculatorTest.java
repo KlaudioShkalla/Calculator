@@ -24,4 +24,10 @@ class CalculatorTest {
     void testDivision() {
         assertEquals(2, calculator.divide(6, 3), "  2");
     }
+
+    @org.junit.jupiter.api.Test
+    void testSquare() {
+        assertEquals(36, calculator.square(6));
+        assertNotEquals(36, calculator.square(5));
+    }
 }
